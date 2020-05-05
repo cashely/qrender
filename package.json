@@ -1,5 +1,5 @@
 {
-  "name": "qrender",
+  "name": "qrender-js",
   "version": "0.0.1",
   "description": "基于qrcode的二维码渲染",
   "main": "dist/qrender.min.js",
