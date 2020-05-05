@@ -1,6 +1,6 @@
 import QRCode, { QRErrorCorrectLevel } from './qrcode'
 
-export default function QRender(options) {
+function QRender(options) {
   this.options = Object.assign({
     render: "canvas",
     padding: 10,
@@ -77,3 +77,5 @@ QRender.prototype.toUtf8 = function(str) {
 }
 
 window.QRender = QRender
+
+export default QRender
